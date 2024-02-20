@@ -5,7 +5,7 @@ theme: "ubuntukr"
 buildFuture: true
 #googleAnalytics: ""
 params:
-  contact: contact@ubuntu-uk.org
+  contact: admin@ubuntu-uk.org
   github: ubuntu-uk
   launchpad: ubuntu-uk
   mastodon: https://floss.social/@ubuntu_UK
