@@ -33,6 +33,9 @@
         <a href="https://discourse.ubuntu.com/c/locos/ubuntu-uk"><button class="p-button">{{i18n "forums_discourse"}}</button></a>
         <a href="../chat"><button class="p-button">{{i18n "chat"}}</button></a>
         <a href="https://wiki.ubuntu.com/UKTeam/"><button class="p-button">{{i18n "wiki"}}</button></a>
+        <a href="https://lists.ubuntu.com/archives/ubuntu-uk/"><button class="p-button">{{i18n "mailing_list"}}</button></a>
+        <a href="https://lists.ubuntu.com/archives/ubuntu-uk/"><button class="p-button">{{i18n "mailing_list"}}</button></a>
+        <a href="https://floss.social/@ubuntu_UK"><button class="p-button">{{i18n "mastodon"}}</button></a>
       </div>
       <div class="col-4">
           <img src="{{ .RelPermalink }}/community.svg" alt="">
@@ -54,32 +57,22 @@
                   {{i18n "about_networking_events_desc"}}
                 </p>
               </div>
-              <div>
+<!--              <div>
                 <a href="https://event.ubuntu-kr.org"><button class="p-button is-dark">{{i18n "about_networking_events_button"}}</button></a>
-              </div>
+</div> -->
             </div>
           </li>
           <li class="p-matrix__item">
             <div class="p-matrix__content">
-              <img src="{{ .RelPermalink }}/DrakeSongAtOSCKyoto.jpg" alt="">
-              <h3 class="p-matrix__title">{{i18n "about_exchange_title"}}</h3>
+              <img src="{{ .RelPermalink }}/train.jpg" alt="">
+              <h3 class="p-matrix__title">{{i18n "about_social_title"}}</h3>
               <div class="p-matrix__desc">
                 <p>
-                  {{i18n "about_exchange_desc" | safeHTML}}
+                  {{i18n "about_social_desc" | safeHTML}}
                 </p>
               </div>
-            </div>
-          </li>
-          <li class="p-matrix__item">
-            <div class="p-matrix__content">
-              <img src="{{ .RelPermalink }}/projects.png" alt="">
-              <h3 class="p-matrix__title">{{i18n "about_projects_title"}}</h3>
-              <p class="p-matrix__desc">
-                {{i18n "about_projects_desc"}}
-              </p>
               <div>
-                <a href="../projects"><button class="p-button is-dark">{{i18n "group_studies_projects"}}</button></a>
-                <a href="../translate"><button class="p-button is-dark">{{i18n "translate_ubuntu"}}</button></a>
+                <a href="https://discourse.ubuntu.com/t/ubuntu-uk-real-ale-train/42210"><button class="p-button is-dark">{{i18n "about_social_button"}}</button></a>
               </div>
             </div>
           </li>
@@ -95,7 +88,7 @@
           {{i18n "about_organizing_desc"}}
         </p>
         <a href="https://wiki.ubuntu.com/UKTeam"><button class="p-button">{{i18n "about_organizers_en"}}</button></a>
-        <a href="mailto:{{.Site.Params.contact}}"><button class="p-button">{{i18n "about_organizers_join"}}</button></a>
+        <a href="https://discourse.ubuntu.com/c/locos/ubuntu-uk"><button class="p-button">{{i18n "about_organizers_join"}}</button></a>
       </div>
     </div>
   </section>

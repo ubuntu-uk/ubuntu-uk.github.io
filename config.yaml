@@ -58,9 +58,6 @@ languages:
         name: Wiki
         url: https://wiki.ubuntu.com
         weight: 24
-      - identifier: about-group
-        name: About
-        weight: 2
       # - identifier: about
       #   parent: about-group
       #   name: About our community
@@ -85,11 +82,17 @@ languages:
         name: Chat 
         url: chat
         weight: 36
-      - identifier: follow
-        name: Follow us
-        weight: 5
       - identifier: mastodon
-        parent: follow
+        parent: community
         name: Mastodon
         url: https://floss.social/@ubuntu_UK
         weight: 4
+      - identifier: wiki
+        parent: community
+        name: Wiki
+        url: https://wiki.ubuntu.com/UKTeam/
+        weight: 7
+      - identifier: about-group
+        name: About
+        weight: 10
+        url: /about
