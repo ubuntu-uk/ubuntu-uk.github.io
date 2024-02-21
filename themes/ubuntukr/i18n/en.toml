@@ -34,39 +34,30 @@ other = "Group Studies/Projects"
 other = "Localization (Translation)"
 
 [about_online_title]
-other = "Meet people online & Find information you need"
+other = "More information"
 [about_online_desc]
 other = "Connect with community people on various channels like Forums, Discourse, IRC. Find information you need on the official documentation and wiki."
 [about_networking_title]
-other = "Networking, Exchange and Research & Development activities"
+other = "Activities"
 [about_networking_desc]
 other = "We organize diverse activities on Ubuntu and its related open source technologies. Meet and exchange with people and share your experience beyond online activities." 
 [about_networking_events_title]
-other = "Seminars, Workshops and Conferences"
+other = "In-person events and conferences"
 [about_networking_events_desc]
 other = """
-We organize seminars, conferences periodically to share Ubuntu related knowledges,
-and Workshop events to train and make people familiar with Ubuntu and its related open source technologies.
+Details of upcoming conferences and events will appear here
 """
 [about_networking_events_button]
 other = "See event schedules"
 
-[about_exchange_title]
-other = "Exchange with Domestic & Foreign Open source/IT Communities"
-[about_exchange_desc]
+[about_social_title]
+other = "Social events"
+[about_social_desc]
 other = """
-We frequently collaborate with domestic open source communties like OpenStack Korea, WSL Korea User Group and more.
-Cowork with foreign open source communities such as Ubuntu Japan, Debian Japan, Ubuntu Taiwan, Ubuntu Malaysia.
-We also participate <a href="https://www.ubucon.asia">UbuCon Asia</a>, a place to meet Ubuntu LoCos around Asia.
+The Real Ale Train is an old steam train pulling carriages in which people socialise and consume beer/food. The ale and hot food can be purchased and consumed onboard or pre-ordered in advance.
 """
-
-[about_projects_title]
-other = "Group studies, Projects, Open source contribution activities"
-[about_projects_desc]
-other = """
-We organize group studies and projeces on Ubuntu and its related open source technologies.
-We also organize activieis for contributing to Ubuntu projects such as translating Ubuntu. 
-"""
+[about_social_button]
+other= "Find out more"
 
 [about_organizing_title]
 other = "Get involved as Community Organizer"
@@ -80,7 +71,7 @@ other = "About our Community Organizers"
 [about_organizers_list]
 other = "List of Organizers"
 [about_organizers_join]
-other = "Wanna get involved as Organizer?"
+other = "Want to get involved as Organizer?"
 
 [forums_discourse]
 other = "Forums (Discourse)"
@@ -92,6 +83,8 @@ other = "Tutorials"
 other = "Chat"
 [mailing_list]
 other = "Mailing List"
+[mastodon]
+other = "Fediverse (Mastodon)"
 [group_studies_projects]
 other = "Group studies/Projects"
 [translate_ubuntu]
