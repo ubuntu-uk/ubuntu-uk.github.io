@@ -1,8 +1,7 @@
 ---
 title: "About the Community"
 description: >-
-   Ubuntu Korea Community, established late 2005 is an Ubuntu Local community verified by Ubuntu Community Council.
-   We organize various activities sucs as: Providing online community and documentation service, Organizing events like seminars and conferences, Group studies and projects on Ubuntu and its related open source technologies. 
+   We believe that everyone has something to contribute to the Ubuntu community. Whether you are a passionate user, a developer, or a translator, you are invited to get involved in the Ubuntu-UK LoCo. We aim to provide free community support to users of the various flavours of Ubuntu as well as advocating the use of Ubuntu to individuals and organisations alike. Ubuntu-UK LoCo is in the rebuilding stage. This is part of the LoCo rejuvenation that is happening throughout the world.
 image: "logo.png"
 backgroundType: image #light, dark, accent, suru, suru-topped, image
 backgroundImage: "people.jpg"

@@ -5,16 +5,11 @@ theme: "ubuntukr"
 buildFuture: true
 #googleAnalytics: ""
 params:
-  contact: contact@ubuntu-kr.org
-  #facebook: ubuntukorea
-  #twitter: UbuntuKrOrg
+  contact: admin@ubuntu-uk.org
   github: ubuntu-uk
   launchpad: ubuntu-uk
   mastodon: https://floss.social/@ubuntu_UK
-  #youtube: https://www.youtube.com/user/UbuntuKorea
-  #linkedin: https://www.linkedin.com/company/ubuntu-kr/
   source_repo: https://github.com/ubuntu-uk/ubuntu-uk.github.io
-  #privacyPolicy: https://disclosures.ubuntu-kr.org/privacy-policy/
 defaultContentLanguage: en
 languages:
   en:
@@ -24,10 +19,10 @@ languages:
     params:
       description: >-
         Ubuntu UK Community is a Ubuntu LoCo (Local Community) in the UK. 
-        It is a place for everyone who intrested in using, developing with Ubuntu, or contributing to Ubuntu projects.
+        It is a place for everyone who is interested in using, developing with Ubuntu, or contributing to Ubuntu projects.
       copyright: >-
-        © 2021 Ubuntu Korea Community (Ubuntu Korean LoCo Team).
-        © 2023 Ubuntu UK Community (Ubuntu UK LoCo Team)
+        Original template © 2021 Ubuntu Korean LoCo Team.
+        © 2024 Ubuntu UK LoCo Team.
         Except where otherwise noted, Website source code licensed under MIT, Contents licensed under CC BY-SA 4.0. 
         Ubuntu and Canonical are registered trademarks of Canonical Ltd.
       main_slide:
@@ -48,16 +43,6 @@ languages:
         parent: try
         url: https://ubuntu.com/certified
         weight: 20
-      # - identifier: wiki-ko
-      #   parent: try
-      #   name: Wiki (Korean)
-      #   url: https://wiki.ubuntu-kr.org
-      #   weight: 20
-      # - identifier: tutorials-ko
-      #   parent: try
-      #   name: Tutorials (Korean)
-      #   url: https://ubuntu-kr.github.io/workshops/
-      #   weight: 21
       - identifier: docs-en
         parent: try
         name: Docs
@@ -81,16 +66,6 @@ languages:
       #   name: About our community
       #   url: about
       #   weight: 24
-      # - identifier: bylaws
-      #   parent: about-group
-      #   name: Bylaws
-      #   url: bylaws
-      #   weight: 25
-      # - identifier: sponsors
-      #   parent: about-group
-      #   name: Sponsors
-      #   url: sponsors
-      #   weight: 26
       - identifier: community
         name: Community
         url: community
@@ -100,11 +75,6 @@ languages:
         name: Forum (Discourse)
         url: https://discourse.ubuntu.com/c/locos/ubuntu-uk
         weight: 32
-      # - identifier: fb-group
-      #   parent: community
-      #   name: Facebook Group
-      #   url: https://www.facebook.com/groups/ubuntu.ko
-      #   weight: 34
       - identifier: lists
         parent: community
         name: Mailing list
@@ -115,60 +85,11 @@ languages:
         name: Chat 
         url: chat
         weight: 36
-      # - identifier: partandcontrib
-      #   name: Participate & Contribute
-      #   url: partandcontrib
-      #   weight: 4
-      # - identifier: events
-      #   parent: partandcontrib
-      #   name: Join events
-      #   url: https://event.ubuntu-kr.org
-      #   weight: 4
-      # - identifier: study_projects
-      #   parent: partandcontrib
-      #   name: Group Studies/Projects
-      #   url: projects
-      #   weight: 4
-      # - identifier: translate
-      #   parent: partandcontrib
-      #   name: Translate Ubuntu
-      #   url: translate
-      #   weight: 4
-      # - identifier: paid-membership
-      #   parent: partandcontrib
-      #   name: Contribute Membership fee
-      #   url: https://github.com/sponsors/ubuntu-kr
-      #   weight: 4
       - identifier: follow
         name: Follow us
         weight: 5
-      # - identifier: blog
-      #   parent: follow
-      #   name: Blog
-      #   url: https://blog.ubuntu-kr.org
-      #   weight: 4
-      # - identifier: facebook
-      #   parent: follow
-      #   name: Facebook
-      #   url: https://fb.com/ubuntukorea
-      #   weight: 4
-      # - identifier: twitter
-      #   parent: follow
-      #   name: Twitter
-      #   url: https://twitter.com/UbuntuKrOrg
-        weight: 4
-      # - identifier: youtube
-      #   parent: follow
-      #   name: YouTube
-      #   url: https://www.youtube.com/user/UbuntuKorea
-      #   weight: 4
       - identifier: mastodon
         parent: follow
         name: Mastodon
         url: https://floss.social/@ubuntu_UK
         weight: 4
-      # - identifier: linkedin
-      #   parent: follow
-      #   name: LinkedIn
-      #   url: https://www.linkedin.com/company/ubuntu-kr/
-      #   weight: 4

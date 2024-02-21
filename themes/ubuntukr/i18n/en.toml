@@ -4,22 +4,14 @@ other = "Next"
 other = "Previous"
 
 [main_ubuntu_title]
-other = "Most widely used Linux distro"
+other = "About Ubuntu"
 [main_ubuntu_desc]
 other = """
-Ubuntu is one of the most widely used Linux distributon in the world.
-It is well known as easy to use linux desktop, and easy to configure linux distribution for server and other infrastructures.
+Ubuntu is one of the most widely used Linux distributions in the world.
+It is well known as an easy to use desktop and server distribution.
 Ubuntu is optimized for various devices and environment such as Desktop, Laptop, Server, Cloud, Internet of Things, Raspberry Pi, Appliances, Kiosks and much more.
 """
 
-[main_kr_loco_title]
-other = "Verified Ubuntu LoCo(Local Community)"
-[main_kr_loco_desc]
-other = """
-Ubuntu Korea Community is a Ubuntu LoCo(Local Community) in South Korea verified by Ubuntu Community Council.
-We provide localized forums and documentations, Plan and host various seminars and conferences.
-We also organize group studies, research/development projects on Ubuntu and its related open source projects.
-"""
 [main_kr_loco_about]
 other = "About the community"
 [main_kr_loco_community_title]
@@ -42,9 +34,9 @@ other = "Group Studies/Projects"
 other = "Localization (Translation)"
 
 [about_online_title]
-other = "Meet people online & Find informations you need"
+other = "Meet people online & Find information you need"
 [about_online_desc]
-other = "Meet community people on various channels like Forums, Facebook Group, IRC. And find informations you need on official documentations and wiki."
+other = "Connect with community people on various channels like Forums, Discourse, IRC. Find information you need on the official documentation and wiki."
 [about_networking_title]
 other = "Networking, Exchange and Research & Development activities"
 [about_networking_desc]
@@ -80,11 +72,9 @@ We also organize activieis for contributing to Ubuntu projects such as translati
 other = "Get involved as Community Organizer"
 [about_organizing_desc]
 other = """
-People who enthusiast on Ubuntu, Linux and open source are actively participating as organizers.
-If you are actively participating Ubuntu community and interested to join as organizer, Why don't you get involced today?
+People who are enthusiastic about Ubuntu, Linux and open source are actively participating as organizers.
+If you are actively participating in the Ubuntu community and interested to join as an organizer, Why don't you get in touch?
 """
-[about_organizers_ko]
-other = "About our Community Organizers (Korean)"
 [about_organizers_en]
 other = "About our Community Organizers"
 [about_organizers_list]
@@ -94,8 +84,6 @@ other = "Wanna get involved as Organizer?"
 
 [forums_discourse]
 other = "Forums (Discourse)"
-[fb_groups]
-other = "Facebook Groups"
 [wiki]
 other = "Wiki"
 [tutorials]
@@ -110,7 +98,7 @@ other = "Group studies/Projects"
 other = "Translate Ubuntu"
 
 [footer_contact]
-other = "Contact with Organizers (Email)"
+other = "Contact us (Email)"
 [footer_src_repo]
 other = "Source code on GitHub"
 [privacy_policy]
