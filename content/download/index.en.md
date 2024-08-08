@@ -4,30 +4,34 @@ description: "Get latest version of Ubuntu and install it on various environment
 image: "download.svg"
 backgroundType: suru #light, dark, accent, suru, suru-topped, image
 ubuntuVersions:
-    ltsVersion: "22.04 LTS"
-    normalVersion: "23.10"
+    ltsVersion: "24.04 LTS"
+    normalVersion: "24.04"
+    isLtsCurrent: true
     ltsReleaseNoteKor: https://blog.ubuntu-kr.org/2022/04/22/jamme-jellyfish-release-notes/
-    ltsReleaseNote: https://discourse.ubuntu.com/t/jammy-jellyfish-release-notes/24668
+    ltsReleaseNote: https://discourse.ubuntu.com/t/ubuntu-24-04-lts-noble-numbat-release-notes/39890
     normalReleaseNote: https://discourse.ubuntu.com/t/mantic-minotaur-release-notes/35534
 
 ---
 
 # Version and system requirements
 ## Ubuntu {{< param "ubuntuVersions.ltsVersion" >}}
-Ubuntu {{< param "ubuntuVersions.ltsVersion" >}}, the latest LTS(Long term support) version provides 5 years of maintenance and security updates for free.
-In most cases, LTS version is recommended for stable use.
+Ubuntu {{< param "ubuntuVersions.ltsVersion" >}}, the latest LTS (Long term support) version, provides 5 years of maintenance and security updates for free.
+
+<!-- The LTS version is recommended if you value stability over having newer software. -->
 
 - [See Ubuntu {{< param "ubuntuVersions.ltsVersion" >}} release notes]({{< param "ubuntuVersions.ltsReleaseNote" >}})
 
-## Ubuntu {{< param "ubuntuVersions.normalVersion" >}}
-If you want to try out latest features, Try out Ubuntu {{< param "ubuntuVersions.normalVersion" >}}, the latest version. It provides 9 months of maintenance and security updates for free.
+<!-- ## Ubuntu {{< param "ubuntuVersions.normalVersion" >}}
+If you like living on the edge, give Ubuntu {{< param "ubuntuVersions.normalVersion" >}} a go! It has all of Ubuntu's newest features to offer and provides 9 months of maintenance and security updates for free.
 
-[See Ubuntu {{< param "ubuntuVersions.normalVersion" >}} release notes]({{< param "ubuntuVersions.normalReleaseNote" >}})
+[See Ubuntu {{< param "ubuntuVersions.normalVersion" >}} release notes]({{< param "ubuntuVersions.normalReleaseNote" >}}) -->
 
 ## Ubuntu release and support cycle
-New version of Ubuntu is released on every April and October with 6 months interval. And the new LTS version is released on April of even years with 2 years interval.
-Free maintenance and security updates are provided 5 years for LTS version and 9 months for interim releases.
-You may check out Ubuntu release cycle information on ubuntu.com
+New versions of Ubuntu are released every April and October at an interval of 6 months. LTS versions are released in April every couple of years (even-numbered years).
+
+Maintenance and free security updates are provided for 5 years for the current LTS release and 9 months for interim releases.
+
+More information can be found at the page linked below.
 
 {{< button text="Ubuntu release cycle" href="https://ubuntu.com/about/release-cycle" icon="information" >}}
 
@@ -89,7 +93,7 @@ If you need help while using, You can get help on online community such as forum
 
 # Commercial technical support
 
-{{< info title="Note" content="Ubuntu UK Community is a non-profit community consisting of users and developers and is independent from Canonical Ltd. We do not provide any commercial technical support and answers for related inquiries. If you need commercial support for Ubuntu, Check out informations below and get support from Canonical Ltd. or Canonical Partners.">}}
+{{< info title="Note" content="The Ubuntu UK Community is a non-profit community consisting of users and developers and is independent from Canonical Ltd. We do not provide any commercial technical support and answers for related inquiries. If you need commercial support for Ubuntu, have a look at the information provided underneath and get support from Canonical Ltd. or Canonical Partners.">}}
 
 ## Ubuntu Pro (Formerly Ubuntu Advantage)
 Get commercial technical support from Canonical Ltd. the publisher of Ubuntu with Ubuntu Pro program.
@@ -106,6 +110,6 @@ Using AWS, Google Cloud, Microsoft Azure? Create VM workloads with Ubuntu Pro, a
 {{< button text="Ubuntu Pro for Google Cloud" href="https://ubuntu.com/gcp/pro" icon="information" >}}
 
 ## Canonical Partner
-Partners of Canonical Ltd. also provides commercial technical supports.
+Partners of Canonical Ltd. also provides commercial technical support.
 
 {{< button text="Find a Canonical partner" href="https://canonical.com/partners/find-a-partner" icon="information" >}}
