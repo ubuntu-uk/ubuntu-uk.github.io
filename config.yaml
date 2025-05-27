@@ -85,7 +85,7 @@ languages:
       - identifier: mastodon
         parent: community
         name: Mastodon
-        url: https://floss.social/@ubuntu_UK
+        url: https://floss.social/@ubu
         weight: 4
       - identifier: wiki
         parent: community
