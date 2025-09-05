@@ -7,13 +7,29 @@
     <link rel="icon" type="image/png" sizes="16x16" href='{{ "/img/favicon/favicon-16x16.png" | relURL }}'>
 
 
-    {{- $options := (dict "includePaths" (slice "node_modules") "transpiler" "dartsass") -}}
-    {{ $style := resources.Get "sass/theme.scss" | resources.ToCSS $options | resources.Minify | resources.Fingerprint }}
     <title>{{ .Title }} | {{ .Site.Title }}</title>
     <!--  Open Graph Protocol -->
     <meta property="og:site_name" content="{{ .Site.Title }}" />
     <meta property="og:title" content="{{ .Title }}" />
 
     <!--   SASS Stylesheets -->
-    <link rel="stylesheet" href="{{ $style.Permalink }}">
+    {{ with resources.Get "sass/theme.scss" }}
+        {{ $opts := dict
+            "enableSourceMap" hugo.IsDevelopment
+            "outputStyle" (cond hugo.IsDevelopment "expanded" "compressed")
+            "targetPath" "css/main.css"
+            "transpiler" "dartsass"
+            "vars" site.Params.styles
+            "includePaths" (slice "node_modules")
+        }}
+        {{ with . | toCSS $opts }}
+            {{ if hugo.IsDevelopment }}
+                <link rel="stylesheet" href="{{ .RelPermalink }}">
+            {{ else }}
+                {{ with . | fingerprint }}
+                    <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
 </head>
