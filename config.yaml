@@ -8,7 +8,8 @@ params:
   contact: admin@ubuntu-uk.org
   github: ubuntu-uk
   launchpad: ubuntu-uk
-  mastodon: https://floss.social/@ubuntu_UK
+  mastodon: &mastodonUrl
+    https://floss.social/@ubu
   source_repo: https://github.com/ubuntu-uk/ubuntu-uk.github.io
 defaultContentLanguage: en
 languages:
@@ -85,7 +86,7 @@ languages:
       - identifier: mastodon
         parent: community
         name: Mastodon
-        url: https://floss.social/@ubu
+        url: *mastodonUrl
         weight: 4
       - identifier: wiki
         parent: community
